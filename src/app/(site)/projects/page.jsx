@@ -36,7 +36,7 @@ export default async function ProjectPage() {
               <h5 className="m-2 text-base text-gray-700">
                 <PortableText value={product.content} />
               </h5>
-              <Link href={`${product.url}`}><button className=" bg-slate-100 p-2 rounded-lg">View Project</button></Link>
+              <Link href={`${product.url}`}><button className=" bg-slate-100 p-2 rounded-lg" style={{ letterSpacing: "0.2rem" }}>View Project</button></Link>
             </div>
           ))}
         </div>
