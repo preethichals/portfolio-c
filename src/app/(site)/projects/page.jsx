@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { PortableText } from "@portabletext/react";
 import { getProjects } from "../../../../sanity/sanity_utils";
+import Link from "next/link";
 
 export default async function ProjectPage() {
   const projects = await getProjects();
@@ -35,6 +36,7 @@ export default async function ProjectPage() {
               <h5 className="m-2 text-base text-gray-700">
                 <PortableText value={product.content} />
               </h5>
+              <Link href={`${product.url}`}><button className=" bg-slate-100 p-2 rounded-lg">View Project</button></Link>
             </div>
           ))}
         </div>
