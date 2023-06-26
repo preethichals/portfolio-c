@@ -46,7 +46,7 @@ export default async function Skills() {
           </div>
         </div>
       </div>
-      <Projects />
+      
       {/* Skills */}
       <div
         className="mb-4 grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-10 
@@ -131,6 +131,8 @@ export default async function Skills() {
           ))}
         </div>
       </div>
+       {/* Projects */}
+      <Projects />
 
       <Contact />
     </>
