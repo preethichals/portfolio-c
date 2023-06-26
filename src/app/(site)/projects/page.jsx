@@ -13,9 +13,9 @@ export default async function ProjectPage() {
           {" "}
          ----------- Projects -----------
         </h4>
-        <div
+         <div
           className="grid justify-items-center grid-cols-1 
-        md:gap-x-5 gap-y-4 sm:grid-cols-2 md:grid-cols-3
+        md:gap-x-5 gap-y-4 sm:grid-cols-1 md:grid-cols-2
         sm:gap-4 lg:gap-5 bg-gray-200 p-4 border-2 border-gray-300 rounded-2xl"
         >
           {projects.map((product) => (
@@ -27,8 +27,8 @@ export default async function ProjectPage() {
                 <Image
                   src={product.image}
                   alt={product.name}
-                  width={400}
-                  height={300}
+                  width={550}
+                  height={350}
                   className="object-contain shadow-xl border-b-4 border-gray-400"
                 />
               )}
