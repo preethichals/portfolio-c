@@ -8,18 +8,18 @@ export default async function ProjectPage() {
   const projects = await getProjects();
   return (
     <>
-      <div className=" bg-red-50 m-4" id="projectlist">
+      <div className=" bg-white m-4" id="projectlist">
         <h4 className="text-5xl font-extrabold text-center m-2 headingcursive bg-gradient-to-r from-orange-400 via-red-500 to-cyan-700 bg-clip-text text-transparent>Projects">
           {" "}
          --------- Projects ---------
         </h4>
          <div
-          className="grid justify-items-center grid-cols-1 
+          className="grid grid-cols-1 
         md:gap-x-5 gap-y-4 sm:grid-cols-1 md:grid-cols-2
         sm:gap-4 lg:gap-5 bg-gray-200 p-4 border-2 border-gray-300 rounded-2xl"
         >
           {projects.map((product) => (
-            <div key={product._id} className="rounded-lg m-2">
+            <div key={product._id} className="rounded-lg m-2 ">
               <h5 className="font-medium text-gray-900 text-xl p-2">
                 {product.name}
               </h5>
@@ -36,8 +36,8 @@ export default async function ProjectPage() {
               <h5 className="m-2 text-base text-gray-700">
                 <PortableText value={product.content} />
               </h5>
-              <Link href={`${product.url}`}><button className=" bg-slate-100 p-2 rounded-lg" style={{ letterSpacing: "0.1rem" }}>View Project</button></Link>
-            </div>
+              <p className=""><Link href={`${product.url}`}><button className=" bg-white font-light justify-items-center uppercase p-2 rounded-lg" style={{ letterSpacing: "0.1rem" }}>View Project</button></Link>
+            </p></div>
           ))}
         </div>
       </div>
