@@ -66,7 +66,7 @@ export default function Contact() {
         >
          
           <Link
-            className=" text-xl text-cyan-950 font-bold text-center 
+            className=" text-xl font-semibold text-center bg-slate-100 text-black
         leading-relaxed mb-4 border p-2 rounded-md" style={{ letterSpacing: "0.2rem" }}
             href="https://drive.google.com/file/d/1y-Hod-tFwYAyUGtkQNYybBmauUk2EZnW/view?usp=sharing"
           >
