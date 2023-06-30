@@ -11,7 +11,7 @@ export default async function ProjectPage() {
       <div className=" bg-red-50 m-4" id="projectlist">
         <h4 className="text-5xl font-extrabold text-center m-2 headingcursive bg-gradient-to-r from-orange-400 via-red-500 to-cyan-700 bg-clip-text text-transparent>Projects">
           {" "}
-         ----------- Projects -----------
+         --------- Projects ---------
         </h4>
          <div
           className="grid justify-items-center grid-cols-1 
