@@ -10,6 +10,12 @@ function About() {
     gap-x-8 gap-y-6 px-4 py-4 lg:max-w-7xl lg:grid-cols-2 lg:px-8" id="about"
     >
       <div className=" bg-white sm:border-r-0 lg:border-r-4 border-cyan-800 p-4">
+        <p
+          className=" text-2xl text-cyan-950 font-bold uppercase text-center 
+        leading-relaxed mb-4 p-4"
+        >
+          React - Front End Developer
+        </p>
         <h4 className="text-5xl font-extrabold text-center m-2 headingcursive ">
           Hello,
           <span className=" text-5xl bg-gradient-to-r from-orange-400 via-red-500 to-cyan-700 bg-clip-text text-transparent">
