@@ -48,10 +48,12 @@ export default async function Skills() {
       </div>
       
       {/* Skills */}
+      {/* Skills */}
+      <div className="bg-red-50">
       <div
-        className="bg-red-50 container mx-auto grid max-w-2xl grid-cols-1 
-            items-center gap-x-8 gap-y-16 px-4 py-8 lg:max-w-7xl lg:grid-cols-2 lg:px-8"
-      >
+        className=" bg-red-50 container mx-auto grid max-w-2xl grid-cols-1 
+        items-center gap-x-8 gap-y-16 px-4 py-8 lg:max-w-7xl lg:grid-cols-2 lg:px-8"
+        id="skills">
         <div className="bg-red-50 p-2">
           <h4 className="text-5xl text-center m-3 headingcursive">
             My Evolving Skillset
@@ -130,6 +132,7 @@ export default async function Skills() {
             </div>
           ))}
         </div>
+      </div>
       </div>
        {/* Projects */}
       <Projects />
