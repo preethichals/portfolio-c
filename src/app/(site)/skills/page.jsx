@@ -13,7 +13,7 @@ export default async function Skills() {
     <>
       <div className="bg-red-50" id="skills">
         <div
-          className=" container mx-auto grid max-w-2xl grid-cols-1 
+          className="mx-auto grid max-w-2xl grid-cols-1 
             items-center gap-x-8 gap-y-16 px-4 py-8 lg:max-w-7xl lg:grid-cols-2 lg:px-8 "
         >
           <div className=" p-1 m-1">
