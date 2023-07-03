@@ -39,8 +39,8 @@ function About() {
             style={{ letterSpacing: "0.2rem" }}
           >
             {" "}
-            <Link href="#skills" className=" scroll-smooth">
-              Scroll Down
+            <Link href="https://drive.google.com/file/d/1y-Hod-tFwYAyUGtkQNYybBmauUk2EZnW/view?usp=sharing" className=" scroll-smooth">
+              View Resume
             </Link>{" "}
           </button>
         </div>
