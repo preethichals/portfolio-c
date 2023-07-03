@@ -49,8 +49,8 @@ export default async function Skills() {
       
       {/* Skills */}
       <div
-        className=" container mb-4 grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-10 
-      px-4 py-8 lg:max-w-7xl lg:grid-cols-2 lg:px-8 bg-red-50"
+        className=" container mx-auto grid max-w-2xl grid-cols-1 
+            items-center gap-x-8 gap-y-16 px-4 py-8 lg:max-w-7xl lg:grid-cols-2 lg:px-8"
       >
         <div className="bg-red-50 p-2">
           <h4 className="text-5xl text-center m-3 headingcursive">
