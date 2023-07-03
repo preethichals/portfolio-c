@@ -45,7 +45,7 @@ export default async function Skills() {
             </div>
           </div>
         </div>
-      </div>
+ 
       
       {/* Skills */}
       <div
@@ -131,6 +131,7 @@ export default async function Skills() {
           ))}
         </div>
       </div>
+             </div>
        {/* Projects */}
       <Projects />
 
