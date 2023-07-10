@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 
 import Projects from "../projects/page";
-import pic from "../../../../public/assets/Devices.jpg";
+import pic from "../../../../public/assets/device.jpg";
 import { getLogo } from "../../../../sanity/sanity_utils";
 import Contact from "../contact/page";
 
@@ -14,7 +14,7 @@ export default async function Skills() {
       <div className="bg-red-50" id="skills">
         <div
           className=" container mx-auto grid max-w-2xl grid-cols-1 
-            items-center gap-x-8 gap-y-16 px-4 py-8 lg:max-w-7xl lg:grid-cols-2 lg:px-8 "
+            items-center gap-x-8 gap-y-16 px-4 py-8 lg:max-w-7xl lg:grid-cols-2 lg:px-8 lg:border-b-4 border-cyan-800 "
         >
           <div className=" p-1 m-1">
             <Image
@@ -45,13 +45,12 @@ export default async function Skills() {
             </div>
           </div>
         </div>
- 
+    
       
       {/* Skills */}
-        <div>
       <div
-        className=" container bg-red-50 mx-auto grid max-w-2xl grid-cols-1 
-        items-center gap-x-8 gap-y-16 px-4 py-8 lg:max-w-7xl lg:grid-cols-2 lg:px-8"
+        className=" mx-auto grid max-w-2xl grid-cols-1 
+        items-center gap-x-8 gap-y-16 px-4 py-8 lg:max-w-7xl lg:grid-cols-2 lg:px-8 "
       >
         <div className="bg-red-50 p-2">
           <h4 className="text-5xl text-center m-3 headingcursive">
@@ -65,7 +64,7 @@ export default async function Skills() {
               className="rounded-md m-1 text-center p-2
               shadow-md shadow-red-500/50"
             >
-              <h3 className=" text-red-700 text-lg font-bold rounded-md underline uppercase m-1">
+              <h3 className=" text-red-700 text-lg font-medium rounded-md underline uppercase m-1">
                 Front-End
               </h3>
               <p className="bg-white text-sky-900 text-base">
@@ -80,7 +79,7 @@ export default async function Skills() {
               className="rounded-md m-1 text-center p-2
              shadow-md shadow-red-500/50"
             >
-              <h3 className=" text-red-700 text-lg font-bold rounded-md underline uppercase m-1">
+              <h3 className=" text-red-700 text-lg font-medium rounded-md underline uppercase m-1">
                 DataBase
               </h3>
               <p className="bg-white text-sky-900 text-base">My SQL</p>
@@ -90,7 +89,7 @@ export default async function Skills() {
               className="rounded-md m-1 text-center p-2
               shadow-md shadow-red-500/50"
             >
-              <h4 className=" text-red-700 text-lg font-bold rounded-md underline uppercase m-1">
+              <h4 className=" text-red-700 text-lg font-medium rounded-md underline uppercase m-1">
                 Back-End
               </h4>
               <p className="bg-white text-sky-900 text-base">
@@ -103,7 +102,7 @@ export default async function Skills() {
               className="rounded-md m-1 text-center p-2
               shadow-md shadow-red-500/50"
             >
-              <h3 className=" text-red-700 text-lg font-bold rounded-md underline uppercase m-1">
+              <h3 className=" text-red-700 text-lg font-medium rounded-md underline uppercase m-1">
                 UI/UX design,
                 <br /> Other <br />
               </h3>
@@ -132,8 +131,7 @@ export default async function Skills() {
           ))}
         </div>
       </div>
-          </div>
-             </div>
+      </div>
        {/* Projects */}
       <Projects />
 
@@ -141,4 +139,3 @@ export default async function Skills() {
     </>
   );
 }
-
