@@ -57,7 +57,7 @@ function About() {
           width={500}
           height={300}
           alt="img-banner-01"
-          className="visible sm:invisible md:visible lg:visible xl:visible"
+          className=""
         />
       </div>
     </div>
