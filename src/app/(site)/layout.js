@@ -3,7 +3,7 @@ import Navbar from "../(site)/navbar/page";
 import "../globals.css";
 
 export const metadata = {
-  title: "My Portfolio - Preethi",
+  title: "Preethi- My Portfolio",
   description: "With great passion, I have been building front-end designs for over three years, and I still find it exhilarating.",
 };
 
