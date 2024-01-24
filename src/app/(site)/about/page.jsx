@@ -39,7 +39,7 @@ function About() {
             style={{ letterSpacing: "0.2rem" }}
           >
             {" "}
-            <Link href="https://drive.google.com/file/d/1ehbq2kmvgKkapTG25pD_Ju5ciChhF79b/view?usp=sharing" target="_blank" rel="noopener noreferrer" className=" scroll-smooth">
+            <Link href="https://drive.google.com/file/d/1KvjL8ax0QrrdR1-pcWVlCTs1RqziHdwZ/view?usp=sharing" target="_blank" rel="noopener noreferrer" className=" scroll-smooth">
               View Resume
             </Link>{" "}
           </button>
