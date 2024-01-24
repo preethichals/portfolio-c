@@ -4,7 +4,7 @@ import "../globals.css";
 
 export const metadata = {
   title: "My Portfolio - Preethi",
-  description: "next app",
+  description: "With great passion, I have been building front-end designs for over three years, and I still find it exhilarating.",
 };
 
 export default function RootLayout({ children }) {
